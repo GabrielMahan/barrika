@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban');
+
+body  {
+  background-color: red;
+}
+
+.logo-container {
+  /*display: inline-block;*/
+  margin: 0 auto;
+  width: 90vw;
+  height: 10vh;
+  background-color: red;
+  background: url("img/logo-c.jpg");
+  background-size: cover;
+}

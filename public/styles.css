@@ -1,15 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Esteban');
+@import url('https://fonts.googleapis.com/css?family=Homenaje');
 
 body  {
-  background-color: red;
+  text-align: center;
+  font-family: "Homenaje";
+  color: #222;
+
+
 }
 
 .logo-container {
-  /*display: inline-block;*/
   margin: 0 auto;
   width: 90vw;
-  height: 10vh;
-  background-color: red;
-  background: url("img/logo-c.jpg");
-  background-size: cover;
+  height: 30vh;
+  background: url("img/logo-cd.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.coming-soon {
+  width: 40rem;
+  max-width: 90vw;
+  border: 1em solid #3acf1d;
+  /*height: 5cm;*/
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 3em;
+}
+
+.coming-soon-text {
+  font-size: 2em;
+  padding: 1.5em;
+  /*text-align: center;*/
+}
+
+.contact {
+  padding: 1.5em;
+  font-size: 1.5em;
+  /*padding-bottom: 1em;*/
+  margin-bottom: 2em;
+}
+
+.dvc {
+  font-weight: bold;
 }

@@ -5,6 +5,7 @@ body  {
   font-family: "Homenaje";
   color: #222;
 
+  background: url("img/paper1.jpg");
 
 }
 
@@ -12,7 +13,7 @@ body  {
   margin: 0 auto;
   width: 90vw;
   height: 30vh;
-  background: url("img/logo-cd.jpg");
+  background: url("img/logo-cd.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,28 +21,32 @@ body  {
 
 
 .coming-soon {
-  width: 40rem;
+  width: 50rem;
+  /*background-size: contain;*/
   max-width: 90vw;
   border: 1em solid #3acf1d;
   /*height: 5cm;*/
   margin: 0 auto;
   background-color: white;
   margin-top: 3em;
+  box-shadow: 3px 6px 20px rgba(0,0,0,0.3);
 }
 
 .coming-soon-text {
-  font-size: 2em;
-  padding: 1.5em;
+  font-size: 2.5em;
+  padding: 1em;
   /*text-align: center;*/
 }
 
 .contact {
   padding: 1.5em;
-  font-size: 1.5em;
+  font-size: 2em;
   /*padding-bottom: 1em;*/
-  margin-bottom: 2em;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
 }
 
 .dvc {
   font-weight: bold;
+
 }
